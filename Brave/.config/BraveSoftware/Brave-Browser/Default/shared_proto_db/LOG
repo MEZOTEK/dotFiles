@@ -1,4 +1,0 @@
-2025/11/07-21:42:26.105 2ca5 Reusing MANIFEST /home/mezotek/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/MANIFEST-000001
-2025/11/07-21:42:26.105 2ca5 Recovering log #3
-2025/11/07-21:42:26.106 2ca5 (ignoring error) /home/mezotek/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000003.log: dropping 426 bytes; Corruption: missing start of fragmented record(2)
-2025/11/07-21:42:26.106 2ca5 Reusing old log /home/mezotek/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000003.log 
