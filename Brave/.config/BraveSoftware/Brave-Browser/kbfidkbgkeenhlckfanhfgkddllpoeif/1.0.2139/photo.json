@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "315c97e0-b481-478c-bec6-ef19bc6d517b",
+      "logo": {
+        "imageUrl": "a1595dc4-97e2-433d-bab5-575fdeea97df/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+        "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=LayingWoman&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+        "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+        "companyName": "Proton Mail"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "a1595dc4-97e2-433d-bab5-575fdeea97df/6a946f0c-cee5-48f3-9a9f-c6647be175b0.jpg",
+          "creativeInstanceId": "31294607-c14a-4aed-a92d-dd4db2b6e8e7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "11f83b77-09b1-4a99-b16c-8e402e73369e/b62d0c00-ad64-481f-b2ff-e5decf2c8a76.jpg",
+          "creativeInstanceId": "56b261e6-b039-4d4d-954b-954423dca5af",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "11f83b77-09b1-4a99-b16c-8e402e73369e/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+            "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=TattooedMan&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+            "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+            "companyName": "Proton Mail"
+          }
+        },
+        {
+          "imageUrl": "ec996f42-2d69-4aac-95ad-86662014015b/8a92f93e-1b51-4d75-a06c-f138f9fb64d2.jpg",
+          "creativeInstanceId": "9502ad65-103f-4c23-b2f5-7dd2151949fb",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "ec996f42-2d69-4aac-95ad-86662014015b/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+            "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=PalmTrees&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+            "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+            "companyName": "Proton Mail"
+          }
+        },
+        {
+          "imageUrl": "c88efe0b-1fc2-4403-ac67-b9969c7f40eb/f5641243-5b9b-4475-91b8-cdf1a8432801.jpg",
+          "creativeInstanceId": "52d1b82c-61fa-47f7-95f3-d55ffda5f600",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "c88efe0b-1fc2-4403-ac67-b9969c7f40eb/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+            "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=OceanSunset&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+            "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+            "companyName": "Proton Mail"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "315c97e0-b481-478c-bec6-ef19bc6d517b",
+      "logo": {
+        "imageUrl": "a1595dc4-97e2-433d-bab5-575fdeea97df/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+        "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=LayingWoman&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+        "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+        "companyName": "Proton Mail"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "a1595dc4-97e2-433d-bab5-575fdeea97df/6a946f0c-cee5-48f3-9a9f-c6647be175b0.jpg",
+          "creativeInstanceId": "31294607-c14a-4aed-a92d-dd4db2b6e8e7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "11f83b77-09b1-4a99-b16c-8e402e73369e/b62d0c00-ad64-481f-b2ff-e5decf2c8a76.jpg",
+          "creativeInstanceId": "56b261e6-b039-4d4d-954b-954423dca5af",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "11f83b77-09b1-4a99-b16c-8e402e73369e/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+            "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=TattooedMan&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+            "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+            "companyName": "Proton Mail"
+          }
+        },
+        {
+          "imageUrl": "ec996f42-2d69-4aac-95ad-86662014015b/8a92f93e-1b51-4d75-a06c-f138f9fb64d2.jpg",
+          "creativeInstanceId": "9502ad65-103f-4c23-b2f5-7dd2151949fb",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "ec996f42-2d69-4aac-95ad-86662014015b/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+            "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=PalmTrees&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+            "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+            "companyName": "Proton Mail"
+          }
+        },
+        {
+          "imageUrl": "c88efe0b-1fc2-4403-ac67-b9969c7f40eb/f5641243-5b9b-4475-91b8-cdf1a8432801.jpg",
+          "creativeInstanceId": "52d1b82c-61fa-47f7-95f3-d55ffda5f600",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "c88efe0b-1fc2-4403-ac67-b9969c7f40eb/f0f72c48-3b74-4388-bfaa-276981e2a477.png",
+            "destinationUrl": "https://get.proton.me/?affiliate=brave&url_id=1201&aff_id=1985&aff_sub2=OceanSunset&aff_sub4=ww-en-2c-mail-gro_dis-g_awa-brave_takeover&aff_sub5=takeover",
+            "alt": "Proton Mail - No Spam, No Ads, No Tracking, Just Total Privacy",
+            "companyName": "Proton Mail"
+          }
+        }
+      ]
+    }
+  ]
+}

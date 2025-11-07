@@ -1,0 +1,106 @@
+/* =============================================================================
+ * Gruvbox Minimal Waybar Theme
+ * No transparency, no animations, no rounded corners
+ * ========================================================================== */
+
+/* Gruvbox Dark Hard Palette */
+@define-color bg0 #1d2021;
+@define-color bg1 #282828;
+@define-color bg2 #32302f;
+@define-color fg0 #ebdbb2;
+@define-color fg1 #d5c4a1;
+@define-color gray #928374;
+@define-color red #cc241d;
+@define-color green #98971a;
+@define-color yellow #d79921;
+@define-color blue #458588;
+@define-color purple #b16286;
+@define-color aqua #689d6a;
+@define-color orange #d65d0e;
+
+/* Reset everything */
+* {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  /*  font-family: "JetBrainsMono Nerd Font";  */
+    font-size: 18px;
+    color: @fg0;
+}
+
+/* Whole bar */
+#waybar {
+    background: @bg2;
+}
+
+/* Generic module padding */
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#temperature,
+#tray {
+    padding: 0 14 0 0px;
+}
+
+/* Focused workspace */
+#workspaces button.focused {
+    background: RGBA(255, 255, 255, 0.1);
+    color: @bg0;
+    border: none;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+    background: @red;
+    color: @bg0;
+}
+
+/* Inactive workspace */
+#workspaces button {
+    background: @bg2;
+    color: @gray;
+    padding: 0 10px;
+}
+
+/* Clock */
+#clock {
+   color: @fg0;
+   padding: 0 2 0 0px;
+}
+
+/* Memory and CPU state colors */
+#memory.warning,
+#cpu.warning {
+    color: @yellow;
+}
+
+#memory.critical,
+#cpu.critical {
+    color: @red;
+}
+
+/* Network disconnected */
+#network.disconnected {
+    color: @orange;
+}
+
+/* Pulseaudio muted */
+#pulseaudio.muted {
+    color: @gray;
+}
+
+/* Tray icons 
+#tray {
+    background: @bg1;
+}
+*/
+
+
+/* Slight visual separation between modules */
+#workspaces button + button {
+   /* margin-left: 2px;*/
+}
+
