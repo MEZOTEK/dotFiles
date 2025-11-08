@@ -24,7 +24,10 @@ default_border pixel 2
 
 
 ### Output configuration
-#
+output DP-3 pos 0 0 res 1920x1080
+output HDMI-A-1 pos 1920 0 res 1920x1080 scale 1.25
+workspace 1 output DP-3
+workspace 2 output HDMI-A-1
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 
 
@@ -32,7 +35,6 @@ default_border pixel 2
 exec ~/.azotebg
 exec nm-applet --indicator
 exec blueman-applet
-exec --no-startup-id /usr/lib/polkit-1/polkit-agent-helper-1
 ##exec ~/.config/sway/scripts/kill-openrgb.sh
 
 
@@ -261,6 +263,14 @@ bar {
 
     }
 }
+# For specific windows
+for_window [app_id="pavucontrol"]             floating enable, $slim_border
 
+
+
+
+# idk Misc?
+focus_follows_mouse no
+popup_during_fullscreen smart
 client.focused #a89984 #a89984 #a89984 #a89984
 include /etc/sway/config.d/*
