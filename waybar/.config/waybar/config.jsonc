@@ -11,13 +11,15 @@
     "modules-left": [
         "sway/workspaces"
     ],
-    "modules-center": [],
+    "modules-center": [
+	"clock#time" 
+    ],
     "modules-right": [
         "pulseaudio",
         "memory",
         "tray",
-     //	"network",
-        "clock#time"
+        "network",
+        "custom/power"
     ],
 
     "clock#time": {
@@ -26,35 +28,41 @@
         "tooltip": false
     },
 
-     "network": {
+    "memory": {
 	    "interval": 5,
-	   // "format-wifi": "{essid} ({signalStrength}%)",
+	    "format": " {}%", 
+	    "states": {
+		    "warning": 70,
+		    "critical": 90
+	    }
+    },
+
+    "pulseaudio": {
+	    "format": "{icon} {volume}%",
+	    "format-muted": "",
+	    "format-icons": {
+		    "default": ["", ""]
+	    },
+	    "on-click": "pavucontrol"
+    },
+
+    "network": {
+	    "interval": 5,
+	    "format-wifi": "󰤨 {essid} ({signalStrength}%)",
 	    "format-ethernet": " Connected",
 	    "format-disconnected": "⚠ Disconnected",
 	    "tooltip": false,
 	    //"tooltip-format": "{ifname}: {ipaddr}",
-	    "on-click": "foot nmtui"
-           //󰤨  Wifi icon :)
-    },
-
-    "memory": {
-        "interval": 5,
-        "format": " {}%", 
-        "states": {
-            "warning": 70,
-            "critical": 90
-        }
+	    "on-click": "$HOME/.config/rofi/scripts/wifi-menu.sh"
     },
 
 
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-muted": "",
-        "format-icons": {
-            "default": ["", ""]
-        },
-        "on-click": "pavucontrol"
+     "custom/power": {
+            "format": "󰐥",
+            "on-click": "$HOME/.config/rofi/scripts/power-menu.sh",
+            "tooltip": false
     },
+
 
     "sway/workspaces": {
         "all-outputs": false,

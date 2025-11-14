@@ -1,0 +1,42 @@
+@import "gruvboxPlus.rasi"
+
+window {
+    width: 35%;
+    location: center;
+    background-color: @fg1;
+    orientaion: vertical;
+}
+
+mainbox {
+    children: [listview];
+}
+
+listview {
+    lines: 1;
+    columns: 4;
+    padding: 1px;
+    border: 2px;
+    margin:1px;
+}
+
+element {
+    margin: 3px;
+    padding: 15px;
+    background-color: @bg0;
+}
+
+element selected {
+    background-color: @fg2;
+}
+
+element-text {
+    text-color:                  @fg1;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+element-text selected {
+   text-color: @green;
+}
+
+

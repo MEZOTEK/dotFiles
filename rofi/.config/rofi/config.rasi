@@ -1,2 +1,15 @@
+//@theme ".config/rofi/themes/gruvbox-dark.rasi"
 
-@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+
+//@theme "gruvboxPlus"
+
+//@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
+
+@theme "/home/mezotek/.config/rofi/themes/gruvboxPlus.rasi"
+
+listview {
+    scrollbar: false;
+}

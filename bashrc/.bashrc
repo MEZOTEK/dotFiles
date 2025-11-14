@@ -13,12 +13,15 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 export GSK_RENDERER=ngl
 
+alias tv0='wlr-randr --output HDMI-A-1 --off'
+alias tv1='wlr-randr --output HDMI-A-1 --on'
 alias ..='cd ..'
 alias cmatrix='cmatrix -C yellow'
 alias off='systemctl poweroff'
 alias asa='vim $(fzf --preview="bat --color=always {}")'
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
+alias vv='vim'
 PS1='[\u@\h \W]\$ '
 
 fastfetch --color "38;2;215;153;33"
