@@ -24,6 +24,7 @@ listview {
     columns:4;
     lines:1;
     cycle:false;
+    scrollbar: false;
 }
 
 element {

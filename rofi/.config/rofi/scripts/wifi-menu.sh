@@ -33,7 +33,7 @@ while IFS=: read -r ssid security signal; do
 done <<< "$wifi_list"
 
 # --- Show menu ---
-chosen=$(echo -e "$menu" | rofi -dmenu -i -p "Select Wi-Fi")
+chosen=$(echo -e "$menu" | rofi -dmenu -theme wifi-menu -i -p "Select Wi-Fi")
 [[ -z "$chosen" ]] && exit 0
 
 # --- Handle Refresh ---
@@ -52,13 +52,13 @@ previous_wifi="$current_wifi"
 # --- Determine menu based on network state ---
 if [[ "$chosen_ssid" == "$current_wifi" ]]; then
     # Currently connected
-    action=$(echo -e " Forget\n↩ Return" | rofi -dmenu -i -p "$chosen_ssid options")
+    action=$(echo -e " Forget\n↩ Return" | rofi -dmenu -theme wifi-menu -i -p "$chosen_ssid options")
 elif nmcli -g NAME connection show | grep -qx "$chosen_ssid"; then
     # Previously saved but not connected
-    action=$(echo -e "󱘖 Connect\n Forget\n↩ Return" | rofi -dmenu -i -p "$chosen_ssid")
+    action=$(echo -e "󱘖 Connect\n Forget\n↩ Return" | rofi -dmenu -theme wifi-menu -i -p "$chosen_ssid")
 else
     # Forgotten or never connected
-    action=$(echo -e "󱘖 Connect\n↩ Return" | rofi -dmenu -i -p "$chosen_ssid")
+    action=$(echo -e "󱘖 Connect\n↩ Return" | rofi -dmenu -theme wifi-menu -i -p "$chosen_ssid")
 fi
 
 [[ -z "$action" ]] && exit 0
@@ -83,7 +83,7 @@ elif [[ "$action" == "󱘖 Connect" ]]; then
     else
         # Ask for password
         while true; do
-            wifi_password=$(rofi -dmenu -password -p "Password for $chosen_ssid:")
+            wifi_password=$(rofi -dmenu -theme wifi-menu -password -p "Password for $chosen_ssid:")
             [[ -z "$wifi_password" ]] && exit 0
 
             nmcli device wifi connect "$chosen_ssid" password "$wifi_password" >/dev/null 2>&1

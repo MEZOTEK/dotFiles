@@ -1,4 +1,4 @@
-@theme "gruvboxPlus.rasi"
+@theme "config"
 
 * {
   accent: @fg1;
@@ -54,9 +54,9 @@ listview {
   padding      : 4px 0px;
   lines        : 12;
   columns      : 1;
-  scrollbar    : true;
   fixed-height : false;
   dynamic      : true;
+  scrollbar: false;
 }
 
 element {

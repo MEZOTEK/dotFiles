@@ -16,11 +16,11 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-set $menu rofi -show drun -display-drun "Search"
+set $menu rofi -show drun -theme app-launcher
 
 gaps inner 4
 gaps outer 4
-default_border pixel 2
+default_border pixel 3
 
 
 ### Output configuration

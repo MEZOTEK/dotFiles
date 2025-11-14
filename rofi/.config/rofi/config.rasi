@@ -8,8 +8,9 @@
 
 //@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
 
-@theme "/home/mezotek/.config/rofi/themes/gruvboxPlus.rasi"
+//@theme "/home/mezotek/.config/rofi/themes/gruvboxPlus.rasi"
 
-listview {
-    scrollbar: false;
-}
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+@theme "/home/mezotek/.config/rofi/themes/gruvboxPlus.rasi"
