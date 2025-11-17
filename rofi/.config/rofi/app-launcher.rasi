@@ -3,12 +3,7 @@
 * {
   accent: @fg1;
   urgent: @yellow;
-  background-color : transparent;
   text-color       : @fg0;
-
-  margin  : 0;
-  padding : 0;
-  spacing : 0;
 }
 
 element-icon, element-text, scrollbar {
@@ -17,21 +12,20 @@ element-icon, element-text, scrollbar {
 
 window {
   location : center;
-  width    : 280px;
+  width    : 300px;
   x-offset : 4px;
   y-offset : 26px;
 
   background-color: @bg1;
-  border: 1px;
-  border-color: @bg3;
-  border-radius: 6px;
+  border: 3px;
+  border-color: @fg2;
+  border-radius: 0px;
 }
 
 inputbar {
   spacing  : 8px;
   padding  : 4px 8px;
   children : [ icon-search, entry ];
-
   background-color: @bg0;
 }
 
